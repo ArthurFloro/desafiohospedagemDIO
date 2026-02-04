@@ -11,6 +11,8 @@ namespace desafiohospedagem.models
         public int Capacidade { get; set; }
         public Decimal ValorDiaria { get; set; }
 
+        public Suite () {}
+
         public Suite(String tipoSuite, int capacidade, Decimal valorDiaria)
         {
             TipoSuite = tipoSuite;
